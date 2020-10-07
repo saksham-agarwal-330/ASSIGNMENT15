@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+<title> ASSIGNMENT15</title>
+<style>
+  h1{
+    text-decoration:underline;
+  }
+  .align{
+    text-align:center;
+  }
+  .font{
+    font-style:italic;
+    font-weight:bold;
+  }
+  a:visited{
+    color:lightseagreen;
+    background-color:lightskyblue;
+  }
+  a:hover{
+    color:green;
+    background-color: red;
+  }
+
+</style>
+</head>
+<body>
+  <div class="align">
+<img src='https://codingblocks.com/assets/images/cb/cblogo.png'>
+<br>
+<h1> ADMISSION FORM</h1>
+<form>
+<label for="user"><h2>STUDENT'S NAME
+</h2></label>
+        <input  type="text" name="user" id="user" pattern="[a-z]{10}"  placeholder="Enter Name here " required />
+   <br />
+ <label for="user"><h2>COLLEGE NAME</h2>  </label>
+<input  type="text" name="user" id="user" pattern="[a-z]{30}"  placeholder="Enter College Name here " required />
+<label for="Phone"><h2>  STUDENT'S MOBILE Number</h2></label>
+    <input type="tel" name="Phone" id="Phone"  pattern="[1-9]{1}[0-9]{9}" placeholder="Enter Mobile Number" required/>
+    <br />
+<div class="font">
+<label for="COURSES"><h2>COURSES</h2></label>
+        <input  type="Checkbox" name="COURSES">Web Development
+        <input  type="Checkbox" name="COURSES">Java
+        <input  type="Checkbox"name="COURSES">C++
+  </div>
+         <br />
+<label for="emailid"> <h2>Email_ID</h2></label>
+    <input type="email" name="emailid" id="Email_ID" placeholder="xyz@gmail.com" required / >
+<br />
+  <div class="font">
+<label for="GENDER"><h2>GENDER</h2></label>
+        <input  type="radio" name="Gender">Male
+        <input  type="radio" name="Gender">Female
+      <input  type="radio" name="Gender">Others
+  </div>
+<br>
+<br>
+<button type="button"><a href="ASSIGNMENT15 PART B.html">submit</a></button>
+    </div>
+</body>
+</html>
